@@ -19,7 +19,6 @@
             "LuoYouXiu\\FadadaSdkForPhp\\Constants\\": "src/constants/",
             "LuoYouXiu\\FadadaSdkForPhp\\Client\\": "src/client/",
             "LuoYouXiu\\FadadaSdkForPhp\\Utils\\": "src/utils/"
-
         }
     },
     "authors": [
