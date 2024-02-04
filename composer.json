@@ -1,0 +1,27 @@
+{
+    "name": "lyx/fadada-sdk-for-php",
+    "description": "PHP版本法大大SDK集成,基于SDK5.0",
+    "type": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+      "ext-json": "*",
+        "ext-curl": "*",
+        "ext-iconv": "*"
+    },
+    "license": "1",
+    "autoload": {
+        "psr-4": {
+            "Lyx\\FadadaSdkForPhp\\Bean\\": "src/bean/",
+            "Lyx\\FadadaSdkForPhp\\Constants\\": "src/constants/",
+            "Lyx\\FadadaSdkForPhp\\Client\\": "src/client/",
+            "Lyx\\FadadaSdkForPhp\\Utils\\": "src/utils/"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "luoyouxiu",
+            "email": "1291838675@qq.com"
+        }
+    ]
+}
