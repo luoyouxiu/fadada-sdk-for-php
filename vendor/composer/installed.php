@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'LuoYouXiu/fadada-sdk-for-php',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'name' => 'luoyouxiu/fadada-sdk-for-php',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '6cfa6f7003bbf87869b51d8e9b1cf5872926364c',
         'type' => 'dev',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -37,10 +37,10 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'LuoYouXiu/fadada-sdk-for-php' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+        'luoyouxiu/fadada-sdk-for-php' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '6cfa6f7003bbf87869b51d8e9b1cf5872926364c',
             'type' => 'dev',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -99,6 +99,17 @@
             'install_path' => __DIR__ . '/../ralouphie/getallheaders',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'roave/security-advisories' => array(
+            'pretty_version' => 'dev-latest',
+            'version' => 'dev-latest',
+            'reference' => '2f3b470e6ca356a27bf10b2b439c3683d20bebc1',
+            'type' => 'metapackage',
+            'install_path' => NULL,
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => true,
         ),
         'symfony/deprecation-contracts' => array(
             'pretty_version' => 'v3.0.2',

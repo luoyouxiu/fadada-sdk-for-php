@@ -20,10 +20,10 @@ class ComposerStaticInit8539b03b6d2ee77e9f197ba8b29ff947
         ),
         'L' => 
         array (
-            'LuoYouXiu\\FadadaSdkForPhp\\Utils\\' => 26,
-            'LuoYouXiu\\FadadaSdkForPhp\\Constants\\' => 30,
-            'LuoYouXiu\\FadadaSdkForPhp\\Client\\' => 27,
-            'LuoYouXiu\\FadadaSdkForPhp\\Bean\\' => 25,
+            'LuoYouXiu\\FadadaSdkForPhp\\Utils\\' => 32,
+            'LuoYouXiu\\FadadaSdkForPhp\\Constants\\' => 36,
+            'LuoYouXiu\\FadadaSdkForPhp\\Client\\' => 33,
+            'LuoYouXiu\\FadadaSdkForPhp\\Bean\\' => 31,
         ),
         'G' => 
         array (
@@ -43,19 +43,19 @@ class ComposerStaticInit8539b03b6d2ee77e9f197ba8b29ff947
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
         ),
-        'LuoYouXiu\\FadadaSdkForPhp\\Utils\\' =>
+        'LuoYouXiu\\FadadaSdkForPhp\\Utils\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/utils',
         ),
-        'LuoYouXiu\\FadadaSdkForPhp\\Constants\\' =>
+        'LuoYouXiu\\FadadaSdkForPhp\\Constants\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/constants',
         ),
-        'LuoYouXiu\\FadadaSdkForPhp\\Client\\' =>
+        'LuoYouXiu\\FadadaSdkForPhp\\Client\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/client',
         ),
-        'LuoYouXiu\\FadadaSdkForPhp\\Bean\\' =>
+        'LuoYouXiu\\FadadaSdkForPhp\\Bean\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/bean',
         ),

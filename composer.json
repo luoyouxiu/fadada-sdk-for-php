@@ -7,6 +7,10 @@
       "ext-json": "*",
         "ext-curl": "*",
         "ext-iconv": "*"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
     },
     "license": "1",
     "autoload": {
