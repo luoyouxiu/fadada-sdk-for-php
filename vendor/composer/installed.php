@@ -3,7 +3,7 @@
         'name' => 'luoyouxiu/fadada-sdk-for-php',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '6cfa6f7003bbf87869b51d8e9b1cf5872926364c',
+        'reference' => '882f2fafb656dc8d55fa2de068e726c1f546e461',
         'type' => 'dev',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -40,7 +40,7 @@
         'luoyouxiu/fadada-sdk-for-php' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '6cfa6f7003bbf87869b51d8e9b1cf5872926364c',
+            'reference' => '882f2fafb656dc8d55fa2de068e726c1f546e461',
             'type' => 'dev',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
