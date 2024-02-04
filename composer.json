@@ -1,5 +1,5 @@
 {
-    "name": "LuoYouXiu/fadada-sdk-for-php",
+    "name": "luoyouxiu/fadada-sdk-for-php",
     "description": "PHP版本法大大SDK集成,基于SDK5.0",
     "type": "dev",
     "require": {
