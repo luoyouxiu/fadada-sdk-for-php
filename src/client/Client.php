@@ -1,8 +1,7 @@
 <?php
 namespace LuoYouXiu\FadadaSdkForPhp\Client;
 use Exception;
-
-require_once 'Fdd.Sdk.IClient.php';
+use LuoYouXiu\FadadaSdkForPhp\Client\IClient;
 
 date_default_timezone_set('PRC');//其中PRC为“中华人民共和国”
 

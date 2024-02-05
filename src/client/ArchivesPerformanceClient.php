@@ -2,13 +2,18 @@
 
 namespace LuoYouXiu\FadadaSdkForPhp\Client;
 
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\archives\ArchivesCatalogListReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\archives\ArchivesContactArchivedReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\archives\ArchivesPerformanceDeleteReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\archives\ArchivesPerformanceListReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\archives\ArchivesPerformanceModifyReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\archives\GetArchivedDetailReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\archives\GetArchivedListReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\archives\GetArchivesManageUrlReq;
 
-require_once 'Fdd.Sdk.IClient.php';
-require_once '../constants/OpenApiUrlConstants.php';
+use LuoYouXiu\FadadaSdkForPhp\Client\IClient;
+use LuoYouXiu\FadadaSdkForPhp\Constants\OpenApiUrlConstants;
+
 
 
 class ArchivesPerformanceClient

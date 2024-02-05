@@ -1,20 +1,43 @@
 <?php
 namespace LuoYouXiu\FadadaSdkForPhp\Client;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\AbolishSignTaskReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\ActorGetUrlReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\AddActorsReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\AddAttachReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\AddDocsReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\AddFieldReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\BlockReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\BusinessTypeListReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\CreateSignTaskReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\CreateWithTemplateReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\DeleteActorReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\DeleteAttachReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\DeleteDocsReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\DeleteFieldReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\DownloadFilesReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\EvidenceReportDownloadUrlReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\ExtensionSignTaskReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\FillFieldValuesReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\GetActorAudioVideoReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\GetActorCerInfoReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\GetBatchSignUrlReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\GetFacePictureReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\GetSignTaskPicDocTicketReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\GetSignTaskSlicingDocReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\GetV3ActorSignTaskUrlReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\ModifyActorReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\SignTaskApplyReportReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\SignTaskBaseReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\SignTaskCancelReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\SignTaskCatalogListReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\SignTaskDownloadReportReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\SignTaskGetFileReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\SignTaskIgnoreReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\SignTaskOwnerListReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\signTask\UnblockReq;
 use LuoYouXiu\FadadaSdkForPhp\Constants\OpenApiUrlConstants;
 
-require_once 'Fdd.Sdk.IClient.php';
-require_once '../constants/OpenApiUrlConstants.php';
+use LuoYouXiu\FadadaSdkForPhp\Client\IClient;
 
 /**
  * Class SignTaskClient

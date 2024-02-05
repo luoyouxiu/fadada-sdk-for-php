@@ -9,9 +9,7 @@ use LuoYouXiu\FadadaSdkForPhp\Bean\req\corp\GetCorpIdentityInfoReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\corp\GetCorpReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\corp\UnbindCorpReq;
 use LuoYouXiu\FadadaSdkForPhp\Constants\OpenApiUrlConstants;
-
-require_once 'Fdd.Sdk.IClient.php';
-require_once '../constants/OpenApiUrlConstants.php';
+use LuoYouXiu\FadadaSdkForPhp\Client\IClient;
 
 class CorpClient
 {

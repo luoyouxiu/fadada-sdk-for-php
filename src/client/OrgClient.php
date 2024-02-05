@@ -20,8 +20,7 @@ use LuoYouXiu\FadadaSdkForPhp\Bean\req\org\member\MemberModifyReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\org\member\MemberSetDeptReq;
 use LuoYouXiu\FadadaSdkForPhp\Constants\OpenApiUrlConstants;
 
-require_once 'Fdd.Sdk.IClient.php';
-require_once '../constants/OpenApiUrlConstants.php';
+use LuoYouXiu\FadadaSdkForPhp\Client\IClient;
 
 class OrgClient
 {

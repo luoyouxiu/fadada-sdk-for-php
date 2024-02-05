@@ -1,8 +1,15 @@
 <?php
 
 namespace LuoYouXiu\FadadaSdkForPhp\Client;
-require_once 'Fdd.Sdk.IClient.php';
-require_once '../constants/OpenApiUrlConstants.php';
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\draft\DocFinalizeReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\draft\DraftCreateReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\draft\GetEditUrlReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\draft\GetFinishedFileReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\draft\GetInviteUrlReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\draft\GetManageUrlReq;
+use LuoYouXiu\FadadaSdkForPhp\Constants\OpenApiUrlConstants;
+
+use LuoYouXiu\FadadaSdkForPhp\Client\IClient;
 
 
 class DraftClient

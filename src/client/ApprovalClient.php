@@ -7,8 +7,6 @@ use LuoYouXiu\FadadaSdkForPhp\Bean\req\approval\GetApprovalInfoListReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\approval\GetApprovalUrlReq;
 use LuoYouXiu\FadadaSdkForPhp\Constants\OpenApiUrlConstants;
 
-require_once 'Fdd.Sdk.IClient.php';
-require_once '../constants/OpenApiUrlConstants.php';
 
 class ApprovalClient
 {

@@ -1,7 +1,26 @@
 <?php
 namespace LuoYouXiu\FadadaSdkForPhp\Client;
-require_once 'Fdd.Sdk.IClient.php';
-require_once '../constants/OpenApiUrlConstants.php';
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\identity\BankFourElementVerifyReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\identity\BankThreeElementVerifyReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\identity\BusinessInfoQueryReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\identity\BusinessThreeElementVerifyReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\identity\GetIdCardImageDownloadUrlReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\identity\GetUserFourElementVerifyUrlReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\identity\GetUserThreeElementVerifyUrlReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\identity\IdCardThreeElementVerifyReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\identity\IdentityTwoElementVerifyReq;
+
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\identity\TelecomThreeElementVerifyReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\ocr\BankCardOcrReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\ocr\BizLicenseOcrReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\ocr\DrivingLicenseOcrReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\ocr\IdCardOcrReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\ocr\MainlandPermitOcrReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\ocr\VehicleLicenseOcrReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\verify\GetFaceRecognitionStatusReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\tool\verify\GetFaceRecognitionUrlReq;
+use LuoYouXiu\FadadaSdkForPhp\Client\IClient;
+use LuoYouXiu\FadadaSdkForPhp\Constants\OpenApiUrlConstants;
 
 class ToolServiceClient {
     private $client;

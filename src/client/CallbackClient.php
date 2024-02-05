@@ -1,9 +1,8 @@
 <?php
 namespace LuoYouXiu\FadadaSdkForPhp\Client;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\callback\GetCallBackListReq;
-
-require_once 'Fdd.Sdk.IClient.php';
-require_once '../constants/OpenApiUrlConstants.php';
+use LuoYouXiu\FadadaSdkForPhp\Constants\OpenApiUrlConstants;
+use LuoYouXiu\FadadaSdkForPhp\Client\IClient;
 
 class CallbackClient
 {

@@ -8,5 +8,4 @@ use LuoYouXiu\FadadaSdkForPhp\Bean\req\user\GetUserReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\user\UnbindUserReq;
 use LuoYouXiu\FadadaSdkForPhp\Constants\OpenApiUrlConstants;
 
-require_once 'Fdd.Sdk.IClient.php';
-require_once '../constants/OpenApiUrlConstants.php';
+use LuoYouXiu\FadadaSdkForPhp\Client\IClient;

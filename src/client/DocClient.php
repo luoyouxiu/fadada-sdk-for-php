@@ -8,8 +8,7 @@ use LuoYouXiu\FadadaSdkForPhp\Bean\req\doc\FileVerifySignReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\doc\OfdFileMergeReq;
 use LuoYouXiu\FadadaSdkForPhp\Constants\OpenApiUrlConstants;
 
-require_once 'Fdd.Sdk.IClient.php';
-require_once '../constants/OpenApiUrlConstants.php';
+use LuoYouXiu\FadadaSdkForPhp\Client\IClient;
 
 class DocClient
 {

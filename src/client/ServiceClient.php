@@ -2,8 +2,7 @@
 namespace LuoYouXiu\FadadaSdkForPhp\Client;
 use LuoYouXiu\FadadaSdkForPhp\Constants\OpenApiUrlConstants;
 
-require_once 'Fdd.Sdk.IClient.php';
-
+use LuoYouXiu\FadadaSdkForPhp\Client\IClient;
 class ServiceClient
 {
 

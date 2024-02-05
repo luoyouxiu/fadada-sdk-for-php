@@ -1,7 +1,14 @@
 <?php
 namespace LuoYouXiu\FadadaSdkForPhp\Client;
-require_once 'Fdd.Sdk.IClient.php';
-require_once '../constants/OpenApiUrlConstants.php';
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\ocr\edit\GetCompareResultDataReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\ocr\edit\GetCompareResultUrlReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\ocr\edit\GetCompareUrlReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\ocr\edit\GetExamineDataReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\ocr\edit\GetExamineResultUrlReq;
+use LuoYouXiu\FadadaSdkForPhp\Bean\req\ocr\edit\GetExamineUrlReq;
+use LuoYouXiu\FadadaSdkForPhp\Client\IClient;
+use LuoYouXiu\FadadaSdkForPhp\Constants\OpenApiUrlConstants;
+
 
 class OCRClient {
 

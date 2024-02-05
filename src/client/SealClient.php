@@ -30,8 +30,7 @@ use LuoYouXiu\FadadaSdkForPhp\Bean\req\seal\SealModifyReq;
 use LuoYouXiu\FadadaSdkForPhp\Bean\req\seal\SealSetStatusReq;
 use LuoYouXiu\FadadaSdkForPhp\Constants\OpenApiUrlConstants;
 
-require_once 'Fdd.Sdk.IClient.php';
-require_once '../constants/OpenApiUrlConstants.php';
+use LuoYouXiu\FadadaSdkForPhp\Client\IClient;
 
 class SealClient
 {
