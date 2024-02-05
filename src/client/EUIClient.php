@@ -48,12 +48,12 @@ class EUIClient
      * @return string
      * @deprecated 5.3.0.0824 弃用方法
      */
-    private function getEuiDomain($self): string
+    private function getEuiDomain($self,$APP_ID): string
     {
         $domain = array(
-            "https://sit-api.fadada.com/api/v5/"=>"https://".OpenApiConfigConstants::APP_ID.".sit-e.fadada.com/authorize/list?",
-            "https://uat-api.fadada.com/api/v5/"=>"https://".OpenApiConfigConstants::APP_ID.".uat-e.fadada.com/authorize/list?",
-            "https://api.fadada.com/api/v5/"=>"https://".OpenApiConfigConstants::APP_ID.".e.fadada.com/authorize/list?"
+            "https://sit-api.fadada.com/api/v5/"=>"https://".$APP_ID.".sit-e.fadada.com/authorize/list?",
+            "https://uat-api.fadada.com/api/v5/"=>"https://".$APP_ID.".uat-e.fadada.com/authorize/list?",
+            "https://api.fadada.com/api/v5/"=>"https://".$APP_ID.".e.fadada.com/authorize/list?"
         );
         return $domain[$self] ;
     }

@@ -4,37 +4,38 @@ use LuoYouXiu\FadadaSdkForPhp\Constants\OpenApiConfigConstants;
 
 class GetService
 {
-    public function __construct()
-    {
+    private $APP_ID;
+    private $APP_SECRET;
+    private $SERVICE_URL;
 
+    public function __construct($APP_ID, $APP_SECRET, $SERVICE_URL)
+    {
+        //初始化
+        $this->APP_ID = $APP_ID;
+        $this->APP_SECRET = $APP_SECRET;
+        $this->SERVICE_URL = $SERVICE_URL;
     }
 
     function getAccessToken(){
         /*****获取token******/
-        $serviceClient = new ServiceClient(new Client(OpenApiConfigConstants::APP_ID, OpenApiConfigConstants::APP_SECRET, OpenApiConfigConstants::SERVICE_URL));
-
+        $serviceClient = new ServiceClient(new Client($this->APP_ID, $this->APP_SECRET,$this->SERVICE_URL));
         $response = $serviceClient->getAccessToken();
-//        print_r($response."\n");
         $res = json_decode($response);
         return $res->data->accessToken;
     }
 
     function getAppAccessTicket(){
         /*****获取token******/
-        $serviceClient = new ServiceClient(new Client(OpenApiConfigConstants::APP_ID, OpenApiConfigConstants::APP_SECRET, OpenApiConfigConstants::SERVICE_URL));
-
+        $serviceClient = new ServiceClient(new Client($this->APP_ID, $this->APP_SECRET,$this->SERVICE_URL));
         $response = $serviceClient->getAppAccessTicket();
-//        print_r($response."\n");
-//        $res = json_decode($response);
+        $res = json_decode($response);
         return $res->data->accessToken;
     }
 
     function getUserAccessTicket(){
         /*****获取token******/
-        $serviceClient = new ServiceClient(new Client(OpenApiConfigConstants::APP_ID, OpenApiConfigConstants::APP_SECRET, OpenApiConfigConstants::SERVICE_URL));
-
+        $serviceClient = new ServiceClient(new Client($this->APP_ID, $this->APP_SECRET,$this->SERVICE_URL));
         $response = $serviceClient->getUserAccessTicket();
-//        print_r($response."\n");
         $res = json_decode($response);
         return $res->data->accessToken;
     }
